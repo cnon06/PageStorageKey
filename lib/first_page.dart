@@ -36,11 +36,11 @@ class _FirstPageState extends State<FirstPage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.search),
-            label: 'Search',
+            label: 'Material',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.add),
-            label: 'Add',
+            label: 'ExpansionTile',
           ),
           BottomNavigationBarItem(
               icon: Icon(Icons.account_box), label: 'Profile')
