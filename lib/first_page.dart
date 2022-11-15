@@ -13,7 +13,7 @@ class FirstPage extends StatefulWidget {
 }
 
 class _FirstPageState extends State<FirstPage> {
-  List pages = [Home(),Search(),Add(),Profile()];
+  List pages = [const Home(),const Search(),const Add(),const Profile()];
   int selectedItem = 0;
   @override
   Widget build(BuildContext context) {
