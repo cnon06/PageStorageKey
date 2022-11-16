@@ -6,6 +6,7 @@ class Search extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
+      key: const PageStorageKey("material"),
         itemExtent: 50,
         itemCount: 100,
         itemBuilder: (context, index) {
@@ -23,6 +24,6 @@ class Search extends StatelessWidget {
           );
         });
 
-    // return Container(color: Colors.green,child: const Center(child: Text('Search Page')));
+
   }
 }
